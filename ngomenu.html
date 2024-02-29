@@ -1,0 +1,82 @@
+
+<html>
+<title>Browsing books by Accession Number</title>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/lib-base.css" />
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/lib-topbar.css" />
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/lib-sidebar.css" />
+
+<script type="text/javascript" src="ddlevelsfiles/library.js">
+
+</script>
+
+</head>
+
+<base target="_self">
+
+<meta name="Microsoft Theme" content="copy-of-willow 111">
+
+
+<body>
+
+
+<table align="center">
+<div id="libtopmenubar" class="mattblackmenu">
+<ul>
+<li><a href="NGOhome.jsp"><b>HOME</b></a></li>
+<li><a href="#" rel="libsubmenu1"><b>Trainings</b></a></li>
+<li><a href=" #" rel="libsubmenu2"><b>Queries</b></a></li>
+ <li><a href="#"rel="libsubmenu3"><b>MessageBox</b></a></li> 
+<!-- <li><a href="#" rel="libsubmenu4"><b>SECURITY</b></a></li> -->
+<li><a href="login.jsp" ><b>LOGOUT</b></a></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+ddlevelsmenu.setup("libtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")
+</script>
+
+
+<!--DATA ENTRY menu-->
+
+
+<ul id="libsubmenu1" class="ddsubmenustyle">
+
+<li><a href="addtraining.jsp"><b>Add Training</b></a></li>
+<li><a href="viewtrainingNGO.jsp?role=ngo"><b>View Trainings</b></a></li>
+<li><a href="Viewreqtraingings.jsp?role=ngo"><b>View  Requested Trainings</b></a></li>
+
+</ul>
+
+
+
+<!--Crops menu-->
+
+
+<ul id="libsubmenu2" class="ddsubmenustyle">
+
+<li><a href="ngopostqueryans.jsp"><b>View Queries</b></a></li>
+<!-- <li><a href="PostAnswer.jsp"><b>PostAnswer</b></a></li> -->
+
+</ul>
+
+
+<ul id="libsubmenu3" class="ddsubmenustyle">
+
+<li><a href="ngoinbox.jsp"><b>Inbox</b></a></li>
+<li><a href="ngooutbox.jsp"><b>Outbox</b></a></li>
+<!-- <li><a href="Nsearch.jsp?role=ngo"><b>Search</b></a></li> -->
+
+</ul>
+
+<ul id="libsubmenu4" class="ddsubmenustyle">
+
+<li><a href="Changepassword.jsp?role=ngo"><b>Chagne Password</b></a></li>
+<li><a href="Changequestion.jsp?role=ngo"><b>Change Security Question</b></a></li>
+
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+
+<html>
+<title>Browsing books by Accession Number</title>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/lib-base.css" />
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/lib-topbar.css" />
+<link rel="stylesheet" type="text/css" href="ddlevelsfiles/lib-sidebar.css" />
+
+<script type="text/javascript" src="ddlevelsfiles/library.js">
+
+</script>
+
+</head>
+
+<base target="_self">
+
+<meta name="Microsoft Theme" content="copy-of-willow 111">
+
+
+<body>
+
+
+<table align="center">
+<div id="libtopmenubar" class="mattblackmenu">
+<ul>
+<li><a href="adminhome.jsp"><b>HOME</b></a></li>
+<li><a href="#" rel="libsubmenu1"><b>SOIL</b></a></li>
+<li><a href=" #" rel="libsubmenu2"><b>CROPS</b></a></li>
+<li><a href="#" rel="libsubmenu3"><b>FERTILIZERS</b></a></li>
+ <li><a href="#"rel="libsubmenu4"><b>MARKET</b></a></li> 
+<li><a href="#" rel="libsubmenu5"><b>REPORTS</b></a></li>
+<li><a href="#"rel="libsubmenu6"><b>MESSAGE BOX</b></a></li>
+<!-- <li><a href="#" rel="libsubmenu7"><b>SECURITY</b></a></li> -->
+<li><a href="login.jsp" ><b>LOGOUT</b></a></li>
+</ul>
+</div>
+
+<script type="text/javascript">
+ddlevelsmenu.setup("libtopmenubar", "topbar") //ddlevelsmenu.setup("mainmenuid", "topbar|sidebar")
+</script>
+
+
+<!--DATA ENTRY menu-->
+
+
+<ul id="libsubmenu1" class="ddsubmenustyle">
+
+<li><a href="#"><b>Soil Info</b></a>
+  <ul>
+  <li><a href="AddSoilType.jsp"><b>Add Soil</b></a></li>
+  <!-- <li><a href="viewsoils.jsp"><b>Update Soil</b></a></li> -->
+  </ul>
+</li>
+
+
+<li><a href="#"><b>State Info</b></a>
+  <ul>
+  <li><a href="addstateinfo.jsp"><b>Add State</b></a></li>
+  <!-- <li><a href="updatestate_info.jsp"><b>Update State</b></a></li> -->
+  </ul>
+</li>
+
+
+<li><a href="#"><b>District Info</b></a>
+  <ul>
+  <li><a href="distinfo.jsp"><b>Add District</b></a></li>
+  <!-- <li><a href="ViewDistricts.jsp"><b>View Districts</b></a></li> -->
+  </ul>
+</li>
+</ul>
+<!--ISSUE menu-->
+
+
+<!--Crops menu-->
+
+
+<ul id="libsubmenu2" class="ddsubmenustyle">
+
+<li><a href="addcrops.jsp"><b>Add Crops</b></a></li>
+<li><a href="updatecrop.jsp"><b>Update Crops</b></a></li>
+
+</ul>
+
+<!--Fertilizers menu-->
+
+
+<ul id="libsubmenu3" class="ddsubmenustyle">
+
+<li><a href="fert.jsp"><b>Add Fertilizers</b></a></li>
+<li><a href="updatefert1.jsp"><b>Update Fertilizers</b></a></li>
+
+
+
+
+</ul>
+
+
+<!--Markets menu-->
+
+<ul id="libsubmenu4" class="ddsubmenustyle">
+
+<!-- <li><a href="AddCommodity.jsp"><b>Add Commodity</b></a></li>
+<li><a href="ViewCommodities.jsp"><b>View Commodities</b></a></li> -->
+
+
+
+<li><a href="addmarketdetails.jsp"><b>Add MarketNames</b></a></li>
+<li><a href="viewmarketdetails.jsp"><b>View Markets</b></a></li>
+<li><a href="addmrktreport.jsp"><b>Add Market Report</b></a></li>
+
+</ul>
+
+
+
+<!--Reports menu-->
+
+
+<ul id="libsubmenu5" class="ddsubmenustyle">
+
+<li><a href="statewisecrop.jsp"><b>Statewise Crops</b></a></li>
+<li><a href="soilbasedfert.jsp"><b>Soil based Fertilizers</b></a></li>
+
+
+<!-- <li><a href="cmdwiserpt.jsp"><b>Commiditywise </b></a></li> -->
+<li><a href="mrktwisedaily1.jsp"><b>Marketwise Daily</b></a></li>
+<li><a href="Monthwisereport.jsp"><b>Marketwise Monthly</b></a></li>
+<!-- <li><a href="regngos.jsp"><b>AGO Registrations</b></a></li> -->
+
+</ul>
+
+</table>
+
+
+
+
+<ul id="libsubmenu6" class="ddsubmenustyle">
+
+<li><a href="viewadminmsg.jsp"><b>Inbox</b></a></li>
+<li><a href="adminsentmsg.jsp"><b>Sent Box</b></a></li>
+<!-- <li><a href="search.jsp?role=admin"><b>Search</b></a></li>
+ -->
+</ul>
+
+<ul id="libsubmenu7" class="ddsubmenustyle">
+
+<li><a href="Changepassword.jsp?role=admin"><b>Chagne Password</b></a></li>
+<li><a href="Changequestion.jsp?role=admin"><b>Change Security Question</b></a></li>
+
+</ul>
+
+</body>
+</html>
